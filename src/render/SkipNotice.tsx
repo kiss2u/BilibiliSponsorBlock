@@ -25,7 +25,7 @@ class SkipNotice {
         autoSkip = false,
         contentContainer: ContentContainer,
         unskipTime: number = null,
-        startReskip = false
+        startReskip = false,
     ) {
         this.skipNoticeRef = React.createRef();
 
