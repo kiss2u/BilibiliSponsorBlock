@@ -85,5 +85,5 @@ export function isSafari(): boolean {
 }
 
 export function isFirefox(): boolean {
-    return isFirefox();
+    return isFirefoxOrSafari() && !isSafari();
 }
